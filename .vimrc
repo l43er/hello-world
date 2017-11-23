@@ -7,6 +7,8 @@
 " DO NOT USE <C-z> FOR SAVING WHEN PRESENTING!
 " ============================================
 
+" Something i did for OPSI-Scripts
+""au BufEnter,BufRead *.conf setf dosini
 
 " Automatic reloading of .vimrc
 "" autocmd! bufwritepost .vimrc source %
